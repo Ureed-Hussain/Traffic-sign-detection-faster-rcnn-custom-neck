@@ -76,7 +76,7 @@ I visualize samples from the dataset with bounding boxes and class IDs overlaid 
 Each numeric label corresponds to a traffic sign class defined in the GTSDB label specification.
 
 <p align="center">
-<img width="794" height="498" alt="image" src="https://github.com/user-attachments/assets/7d012d07-54af-4780-8517-7cd8e31cc608" />
+    <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7d012d07-54af-4780-8517-7cd8e31cc608" />
 </p>
 
 ### Data Augmentation
@@ -92,7 +92,7 @@ train_aug = A.Compose([
 These augmentations help improve model robustness by introducing small rotations and brightness/contrast variations.
 
 <p align="center">
-<img width="950" height="290" alt="image-1" src="https://github.com/user-attachments/assets/982e42bc-1f4d-426a-9130-194b3301dbd6" />
+    <img width="700" height="500" alt="image-1" src="https://github.com/user-attachments/assets/982e42bc-1f4d-426a-9130-194b3301dbd6" />
 </p>
 
 
@@ -115,7 +115,7 @@ This detector follows the canonical Faster R-CNN design, composed of three major
 Only the neck is modified; the backbone and head remain exactly the same as in the baseline implementation.
 
 <p align="center">
-<img width="865" height="540" alt="strong_neck_diagram" src="https://github.com/user-attachments/assets/f8fb0ea8-9c03-4432-9c21-1668199b84e6" />
+    <img width="700" height="500" alt="strong_neck_diagram" src="https://github.com/user-attachments/assets/f8fb0ea8-9c03-4432-9c21-1668199b84e6" />
 </p>
 
 ###  Backbone: ResNet50
