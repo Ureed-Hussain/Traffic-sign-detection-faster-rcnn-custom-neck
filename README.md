@@ -182,7 +182,9 @@ The custom-neck model shows slightly slower initial convergence, with training l
 
 This behavior suggests that the stronger feature refinement introduced by the custom neck requires additional adaptation early in training, but ultimately provides competitive—and more expressive—feature representations for the detection task.
 
-![Custom_neck_curve](https://github.com/user-attachments/assets/46e201ac-c9b4-4843-81ff-f8939ead3e62)
+<p align="center">
+    <img width="600" height="400" alt="Custom_neck_curve" src="https://github.com/user-attachments/assets/46e201ac-c9b4-4843-81ff-f8939ead3e62" />
+</p>
 
 
 ## Results
@@ -196,7 +198,10 @@ This behavior suggests that the stronger feature refinement introduced by the cu
 ### Qualitative Result
 The following visualization shows predicted bounding boxes closely matching the ground truth, demonstrating strong localization and classification performance.
 
-<img width="1016" height="1490" alt="Custom_Neck_Image" src="https://github.com/user-attachments/assets/1038f0a9-2398-4511-bc1a-1df9e7225f06" />
+
+<p align="center">
+    <img width="600" height="800" alt="Custom_Neck_Image" src="https://github.com/user-attachments/assets/1038f0a9-2398-4511-bc1a-1df9e7225f06" />
+</p>
 
 
 ## Conclusion
@@ -217,4 +222,3 @@ Repository: faster-rcnn-from-scratch-traffic-sign-detection
 
 In this upcoming repository, I implement Faster R-CNN entirely from the ground up, including the backbone, neck, Region Proposal Network (RPN), RoIAlign, classification head, and bounding box regression head. Rather than focusing on pretrained convenience, this implementation emphasizes architectural transparency, modularity, and a deeper understanding of the internal mechanics of two-stage object detectors.
 
-Together, the three repositories—baseline Faster R-CNN, Faster R-CNN with a custom neck, and Faster R-CNN implemented from scratch—form a progressive and well-scoped study of traffic sign detection, advancing from a stable reference model to targeted architectural customization, and finally to a complete end-to-end reimplementation.
