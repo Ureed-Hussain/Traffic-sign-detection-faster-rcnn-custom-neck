@@ -218,7 +218,7 @@ The next and final step in this research trajectory is a full from-scratch imple
 
 ## Faster R-CNN Implemented from Scratch
 
-Repository: faster-rcnn-from-scratch-traffic-sign-detection
+Repository: [faster-rcnn-from-scratch-traffic-sign-detection](https://github.com/Ureed-Hussain/faster-rcnn-from-scratch-traffic-sign-detection)
 
 In this upcoming repository, I implement Faster R-CNN entirely from the ground up, including the backbone, neck, Region Proposal Network (RPN), RoIAlign, classification head, and bounding box regression head. Rather than focusing on pretrained convenience, this implementation emphasizes architectural transparency, modularity, and a deeper understanding of the internal mechanics of two-stage object detectors.
 
